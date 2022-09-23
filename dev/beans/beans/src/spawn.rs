@@ -19,7 +19,6 @@ where
     {
         let num_threads =
         {
-            // Parse SMOL_THREADS or default to 1.
             std::env::var("SMOL_THREADS")
                 .ok()
                 .and_then(|s| s.parse().ok())
