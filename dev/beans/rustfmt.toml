@@ -1,0 +1,17 @@
+unstable_features = true
+
+# 括弧の改行位置
+brace_style = "AlwaysNextLine"
+control_brace_style = "AlwaysNextLine"
+
+# タブスペース
+hard_tabs = true
+
+# 制御構文の結合
+combine_control_expr = false
+
+# useのグループ化
+group_imports = "StdExternalCrate"
+
+# typeのオペレータとオペランドのスペース
+type_punctuation_density = "Wide"
